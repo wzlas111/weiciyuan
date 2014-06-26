@@ -54,6 +54,7 @@ public class AccountActivity extends AbstractAppActivity
     private final int ADD_ACCOUNT_REQUEST_CODE = 0;
 
     private final int LOADER_ID = 0;
+    private int flag = 0;
 
     public static Intent newIntent() {
         Intent intent = new Intent(GlobalContext.getInstance(), AccountActivity.class);
